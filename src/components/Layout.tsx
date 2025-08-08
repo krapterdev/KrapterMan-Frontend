@@ -10,7 +10,7 @@ const Layout = () => {
   return (
     <>
       <div className="h-screen flex flex-col border-1">
-        {/* <Header /> */}
+        <Header />
         
         {/* <div className="flex flex-1 overflow-hidden">
       <SideBar />

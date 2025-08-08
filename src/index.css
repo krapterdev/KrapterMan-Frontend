@@ -40,7 +40,7 @@ textarea {
 button {
   background-color: transparent;
   border: none;
-  padding: 0;
+  padding: 0 10px;
   cursor: pointer;
 }
 input,
