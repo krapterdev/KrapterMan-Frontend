@@ -1,5 +1,6 @@
 import React from "react";
 import { Bars3Icon } from "@heroicons/react/24/solid";
+ 
 const Header: React.FC = () => (
   <div className="flex items-center justify-between bg-gray-100 px-4 py-2 border-b">
     <div className="flex space-x-4 font-semibold">
