@@ -10,19 +10,19 @@ const Layout = () => {
   return (
     <>
       <div className="h-screen flex flex-col border-1">
-        <Header />
-        
-        {/* <div className="flex flex-1 overflow-hidden">
-      <SideBar />
-      <div className="flex flex-col flex-1 overflow-hidden">
-        <WorkspaceHeader />
+        {/* <Header /> */}
+
         <div className="flex flex-1 overflow-hidden">
-          <CollectionsPanel />
-          <MainContent />
+          <SideBar />
+          {/* <div className="flex flex-col flex-1 overflow-hidden">
+            <WorkspaceHeader />
+            <div className="flex flex-1 overflow-hidden">
+              <CollectionsPanel />
+              <MainContent />
+            </div>
+          </div> */}
         </div>
-      </div>
-    </div> */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
